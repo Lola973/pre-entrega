@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"/>
+
+    <link rel="stylesheet"  href="../CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <p class="header__logo">
+            <a href="../index.html">Tienda Verde</a>
+        </p>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section class="seccion-contacto">
+        <h1 class="titulo-contacto">Contacto</h1>
+        <form
+          class="formulario"
+          action="https://formspree.io/f/mrbyaovg"
+          method="POST"
+        >
+          <div class="campo-form">
+            <label for="email"> Correo:</label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <div class="campo-form">
+            <label for="mensaje"> Mensaje:</label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+         
+          <input type="hidden" name="subject" value="Tienda Verde" />
+          
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, modi?</p>
+        <nav>
+        <ul>
+            <li>Instagram</li>
+            <li>Tiktok</li>
+            <li>X</li>
+
+        </ul>
+        </nav>
+    </footer>    
+</body>
+</html>
