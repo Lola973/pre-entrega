@@ -1,0 +1,6 @@
+[
+    {"id":"1", "nombre":"Planta colagante", "precio":1500, "img": "img/planta-colgante-de-interior-marble-pothos.jpg"},
+    {"id":"2", "nombre":"Potus", "precio":2000, "img": "img/planta-de-pothos-colgante-en-gris.jpg"},
+    {"id":"3", "nombre":"Planta maceta", "precio":1250, "img": "img/planta-zz-en-una-maceta-gris.jpg"},
+    {"id":"4", "nombre":"Planta de interior", "precio":2500, "img": "img/plantas-de-interior-en-el-estudio.jpg"}
+]
